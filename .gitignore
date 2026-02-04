@@ -1,0 +1,4 @@
+venv/
+__pycache__/
+*.llamafile
+data/avaliacoes.txt
