@@ -34,7 +34,7 @@ def processar_com_ia(lista_resenhas):
         
         try:
             response = client.chat.completions.create(
-                model="local-model", # O nome do modelo que você carregou no LM Studio
+                model="local-model", # O nome do modelo que você carregou no Llama
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.1
             )
